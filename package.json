@@ -1,0 +1,17 @@
+{
+  "name": "flora-layer-1",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check layer1.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "form-data": "^4.0.2",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2"
+  }
+}
