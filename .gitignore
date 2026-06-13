@@ -1,7 +1,0 @@
-.env
-node_modules/
-npm-debug.log*
-models/*.pth
-models/*.pt
-__pycache__/
-*.py[cod]
